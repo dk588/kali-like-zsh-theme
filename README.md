@@ -1,4 +1,5 @@
 #### KALI-LIKE Theme for Oh-My-Zsh 
+## For for someCustomization (bindkey, alias, color,...)
 
 ![Preview](screenshots/kali-like-zsh.png)
 
