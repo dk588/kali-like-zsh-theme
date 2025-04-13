@@ -53,8 +53,8 @@ bindkey '^[[3;5~' kill-word                       # ctrl + Supr
 bindkey '^[[3~' delete-char                       # delete
 bindkey '^[[1;5C' forward-word                    # ctrl + ->
 bindkey '^[[1;5D' backward-word                   # ctrl + <-
-bindkey '^[[5~' beginning-of-buffer-or-history    # page up
-bindkey '^[[6~' end-of-buffer-or-history          # page down
+bindkey '^[[5~' history-beginning-search-backward # page up
+bindkey '^[[6~' history-beginning-search-forward  # page down
 bindkey '^[[H' beginning-of-line                  # home
 bindkey '^[[F' end-of-line                        # end
 bindkey '^[[Z' undo                               # shift + tab undo last action
@@ -76,8 +76,9 @@ configure_prompt() {
         FGPROMPT="$FG[196]"
         CYANPROMPT="$FG[027]"
     else
-        CYANPROMPT="$FG[073]"
-        FGPROMPT="$FG[027]"
+        CYANPROMPT="$FG[073]" #CYAN
+        #CYANPROMPT="$FG[196]" #RED
+        FGPROMPT="$FG[027]" 
     fi
     case "$PROMPT_ALTERNATIVE" in
         twoline)
@@ -227,7 +228,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
+alias ll='ls -lrth'
 alias la='ls -A'
 alias l='ls -CF'
 
