@@ -6,6 +6,11 @@
 Kali-Like is a [oh-my-zsh](https://ohmyz.sh/) theme that looks like Kali Linux default zsh theme.
 Kali-Like can be installed on any linux distribution and isn't Kali Linux dependent.
 
+## Prerequisites
+1. zsh package should be installed
+2. Also OhMyZsh: instructions are on their github [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+
+
 ## Installation  
 
 1. `wget -O ~/.oh-my-zsh/themes/kali-like.zsh-theme https://raw.githubusercontent.com/dk588/kali-like-zsh-theme/refs/heads/main/kali-like.zsh-theme`  
