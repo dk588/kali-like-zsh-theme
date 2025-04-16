@@ -8,7 +8,7 @@ Kali-Like can be installed on any linux distribution and isn't Kali Linux depend
 
 ## Installation  
 
-1. `wget -O ~/.oh-my-zsh/themes/kali-like.zsh-theme https://raw.githubusercontent.com/dk588/kali-like-zsh-theme/master/kali-like.zsh-theme`  
+1. `wget -O ~/.oh-my-zsh/themes/kali-like.zsh-theme https://raw.githubusercontent.com/dk588/kali-like-zsh-theme/refs/heads/main/kali-like.zsh-theme`  
 2. `vim ~/.zshrc`  
 3. Set `ZSH_THEME="current_theme"` to `ZSH_THEME="kali-like"`  
 
